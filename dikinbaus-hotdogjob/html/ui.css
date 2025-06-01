@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: none;
+    height: 100vh;
+}
+
+.hotdogs-stock {
+    position: absolute;
+    width: 16vh;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.85); /* Dark backdrop */
+    right: 5vh;
+    top: 15.5vh;
+    border-radius: .8vh;
+    text-align: center;
+    padding: 1vh 0;
+    box-shadow: 0 0 1vh rgba(255, 215, 0, 0.5); /* Gold glow effect */
+}
+
+#hotdogs-stock-header {
+    font-size: 1.6vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #FFD700; /* Tan Gold */
+    text-transform: uppercase;
+    letter-spacing: 0.15vh;
+    margin-bottom: 1vh;
+}
+
+.hotdogs-stocks {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: .5vh;
+    overflow: hidden;
+}
+
+.stock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 215, 0, 0.05); /* Subtle gold background */
+    margin-bottom: .8vh;
+    padding: 0.5vh 1vh;
+    border-radius: .4vh;
+}
+
+.stock-img {
+    width: 2.2vh;
+    height: 2.2vh;
+}
+
+.stock-rating {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vh;
+    color: #FFD700;
+}
+
+.stock-amount {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vh;
+    color: white;
+}
+
+#my-level {
+    font-size: 1vh;
+    font-family: 'Poppins', sans-serif;
+    color: #FFD700;
+    margin-top: 1vh;
+    letter-spacing: 0.05vh;
+    text-transform: uppercase;
+}
